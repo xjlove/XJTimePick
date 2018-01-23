@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363A5FDB2016DE8C008A9A35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A5FDA2016DE8C008A9A35 /* AppDelegate.m */; };
+		363A5FDE2016DE8C008A9A35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A5FDD2016DE8C008A9A35 /* ViewController.m */; };
+		363A5FE12016DE8C008A9A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363A5FDF2016DE8C008A9A35 /* Main.storyboard */; };
+		363A5FE32016DE8C008A9A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363A5FE22016DE8C008A9A35 /* Assets.xcassets */; };
+		363A5FE62016DE8C008A9A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363A5FE42016DE8C008A9A35 /* LaunchScreen.storyboard */; };
+		363A5FE92016DE8C008A9A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A5FE82016DE8C008A9A35 /* main.m */; };
+		363A5FF32016DE8C008A9A35 /* XJTimePickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A5FF22016DE8C008A9A35 /* XJTimePickTests.m */; };
+		363A5FFE2016DE8C008A9A35 /* XJTimePickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A5FFD2016DE8C008A9A35 /* XJTimePickUITests.m */; };
+		363A600E2016DED2008A9A35 /* XJTimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A600C2016DED2008A9A35 /* XJTimePickView.m */; };
+		363A60142016DF2F008A9A35 /* XJCalendarSelecteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 363A60112016DF2E008A9A35 /* XJCalendarSelecteViewController.xib */; };
+		363A60152016DF2F008A9A35 /* XJCalendarSelecteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A60122016DF2E008A9A35 /* XJCalendarSelecteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363A5FEF2016DE8C008A9A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363A5FCE2016DE8C008A9A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363A5FD52016DE8C008A9A35;
+			remoteInfo = XJTimePick;
+		};
+		363A5FFA2016DE8C008A9A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363A5FCE2016DE8C008A9A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363A5FD52016DE8C008A9A35;
+			remoteInfo = XJTimePick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		363A5FD62016DE8C008A9A35 /* XJTimePick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJTimePick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363A5FD92016DE8C008A9A35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		363A5FDA2016DE8C008A9A35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		363A5FDC2016DE8C008A9A35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		363A5FDD2016DE8C008A9A35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		363A5FE02016DE8C008A9A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		363A5FE22016DE8C008A9A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		363A5FE52016DE8C008A9A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		363A5FE72016DE8C008A9A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363A5FE82016DE8C008A9A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		363A5FEE2016DE8C008A9A35 /* XJTimePickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJTimePickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		363A5FF22016DE8C008A9A35 /* XJTimePickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJTimePickTests.m; sourceTree = "<group>"; };
+		363A5FF42016DE8C008A9A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363A5FF92016DE8C008A9A35 /* XJTimePickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJTimePickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		363A5FFD2016DE8C008A9A35 /* XJTimePickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJTimePickUITests.m; sourceTree = "<group>"; };
+		363A5FFF2016DE8C008A9A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363A600C2016DED2008A9A35 /* XJTimePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTimePickView.m; sourceTree = "<group>"; };
+		363A600D2016DED2008A9A35 /* XJTimePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTimePickView.h; sourceTree = "<group>"; };
+		363A60112016DF2E008A9A35 /* XJCalendarSelecteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJCalendarSelecteViewController.xib; sourceTree = "<group>"; };
+		363A60122016DF2E008A9A35 /* XJCalendarSelecteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJCalendarSelecteViewController.m; sourceTree = "<group>"; };
+		363A60132016DF2F008A9A35 /* XJCalendarSelecteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJCalendarSelecteViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363A5FD32016DE8C008A9A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363A5FEB2016DE8C008A9A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363A5FF62016DE8C008A9A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363A5FCD2016DE8C008A9A35 = {
+			isa = PBXGroup;
+			children = (
+				363A5FD82016DE8C008A9A35 /* XJTimePick */,
+				363A5FF12016DE8C008A9A35 /* XJTimePickTests */,
+				363A5FFC2016DE8C008A9A35 /* XJTimePickUITests */,
+				363A5FD72016DE8C008A9A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363A5FD72016DE8C008A9A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363A5FD62016DE8C008A9A35 /* XJTimePick.app */,
+				363A5FEE2016DE8C008A9A35 /* XJTimePickTests.xctest */,
+				363A5FF92016DE8C008A9A35 /* XJTimePickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363A5FD82016DE8C008A9A35 /* XJTimePick */ = {
+			isa = PBXGroup;
+			children = (
+				363A600B2016DED2008A9A35 /* XJTimePickView */,
+				363A5FD92016DE8C008A9A35 /* AppDelegate.h */,
+				363A5FDA2016DE8C008A9A35 /* AppDelegate.m */,
+				363A5FDC2016DE8C008A9A35 /* ViewController.h */,
+				363A5FDD2016DE8C008A9A35 /* ViewController.m */,
+				363A60132016DF2F008A9A35 /* XJCalendarSelecteViewController.h */,
+				363A60122016DF2E008A9A35 /* XJCalendarSelecteViewController.m */,
+				363A60112016DF2E008A9A35 /* XJCalendarSelecteViewController.xib */,
+				363A5FDF2016DE8C008A9A35 /* Main.storyboard */,
+				363A5FE22016DE8C008A9A35 /* Assets.xcassets */,
+				363A5FE42016DE8C008A9A35 /* LaunchScreen.storyboard */,
+				363A5FE72016DE8C008A9A35 /* Info.plist */,
+				363A5FE82016DE8C008A9A35 /* main.m */,
+			);
+			path = XJTimePick;
+			sourceTree = "<group>";
+		};
+		363A5FF12016DE8C008A9A35 /* XJTimePickTests */ = {
+			isa = PBXGroup;
+			children = (
+				363A5FF22016DE8C008A9A35 /* XJTimePickTests.m */,
+				363A5FF42016DE8C008A9A35 /* Info.plist */,
+			);
+			path = XJTimePickTests;
+			sourceTree = "<group>";
+		};
+		363A5FFC2016DE8C008A9A35 /* XJTimePickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				363A5FFD2016DE8C008A9A35 /* XJTimePickUITests.m */,
+				363A5FFF2016DE8C008A9A35 /* Info.plist */,
+			);
+			path = XJTimePickUITests;
+			sourceTree = "<group>";
+		};
+		363A600B2016DED2008A9A35 /* XJTimePickView */ = {
+			isa = PBXGroup;
+			children = (
+				363A600D2016DED2008A9A35 /* XJTimePickView.h */,
+				363A600C2016DED2008A9A35 /* XJTimePickView.m */,
+			);
+			path = XJTimePickView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363A5FD52016DE8C008A9A35 /* XJTimePick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363A60022016DE8C008A9A35 /* Build configuration list for PBXNativeTarget "XJTimePick" */;
+			buildPhases = (
+				363A5FD22016DE8C008A9A35 /* Sources */,
+				363A5FD32016DE8C008A9A35 /* Frameworks */,
+				363A5FD42016DE8C008A9A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJTimePick;
+			productName = XJTimePick;
+			productReference = 363A5FD62016DE8C008A9A35 /* XJTimePick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		363A5FED2016DE8C008A9A35 /* XJTimePickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363A60052016DE8C008A9A35 /* Build configuration list for PBXNativeTarget "XJTimePickTests" */;
+			buildPhases = (
+				363A5FEA2016DE8C008A9A35 /* Sources */,
+				363A5FEB2016DE8C008A9A35 /* Frameworks */,
+				363A5FEC2016DE8C008A9A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363A5FF02016DE8C008A9A35 /* PBXTargetDependency */,
+			);
+			name = XJTimePickTests;
+			productName = XJTimePickTests;
+			productReference = 363A5FEE2016DE8C008A9A35 /* XJTimePickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		363A5FF82016DE8C008A9A35 /* XJTimePickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363A60082016DE8C008A9A35 /* Build configuration list for PBXNativeTarget "XJTimePickUITests" */;
+			buildPhases = (
+				363A5FF52016DE8C008A9A35 /* Sources */,
+				363A5FF62016DE8C008A9A35 /* Frameworks */,
+				363A5FF72016DE8C008A9A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363A5FFB2016DE8C008A9A35 /* PBXTargetDependency */,
+			);
+			name = XJTimePickUITests;
+			productName = XJTimePickUITests;
+			productReference = 363A5FF92016DE8C008A9A35 /* XJTimePickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363A5FCE2016DE8C008A9A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xj_love;
+				TargetAttributes = {
+					363A5FD52016DE8C008A9A35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					363A5FED2016DE8C008A9A35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 363A5FD52016DE8C008A9A35;
+					};
+					363A5FF82016DE8C008A9A35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 363A5FD52016DE8C008A9A35;
+					};
+				};
+			};
+			buildConfigurationList = 363A5FD12016DE8C008A9A35 /* Build configuration list for PBXProject "XJTimePick" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 363A5FCD2016DE8C008A9A35;
+			productRefGroup = 363A5FD72016DE8C008A9A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363A5FD52016DE8C008A9A35 /* XJTimePick */,
+				363A5FED2016DE8C008A9A35 /* XJTimePickTests */,
+				363A5FF82016DE8C008A9A35 /* XJTimePickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363A5FD42016DE8C008A9A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363A5FE62016DE8C008A9A35 /* LaunchScreen.storyboard in Resources */,
+				363A5FE32016DE8C008A9A35 /* Assets.xcassets in Resources */,
+				363A5FE12016DE8C008A9A35 /* Main.storyboard in Resources */,
+				363A60142016DF2F008A9A35 /* XJCalendarSelecteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363A5FEC2016DE8C008A9A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363A5FF72016DE8C008A9A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363A5FD22016DE8C008A9A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363A5FDE2016DE8C008A9A35 /* ViewController.m in Sources */,
+				363A5FE92016DE8C008A9A35 /* main.m in Sources */,
+				363A600E2016DED2008A9A35 /* XJTimePickView.m in Sources */,
+				363A60152016DF2F008A9A35 /* XJCalendarSelecteViewController.m in Sources */,
+				363A5FDB2016DE8C008A9A35 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363A5FEA2016DE8C008A9A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363A5FF32016DE8C008A9A35 /* XJTimePickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363A5FF52016DE8C008A9A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363A5FFE2016DE8C008A9A35 /* XJTimePickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		363A5FF02016DE8C008A9A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363A5FD52016DE8C008A9A35 /* XJTimePick */;
+			targetProxy = 363A5FEF2016DE8C008A9A35 /* PBXContainerItemProxy */;
+		};
+		363A5FFB2016DE8C008A9A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363A5FD52016DE8C008A9A35 /* XJTimePick */;
+			targetProxy = 363A5FFA2016DE8C008A9A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		363A5FDF2016DE8C008A9A35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363A5FE02016DE8C008A9A35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		363A5FE42016DE8C008A9A35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363A5FE52016DE8C008A9A35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363A60002016DE8C008A9A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		363A60012016DE8C008A9A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		363A60032016DE8C008A9A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXQ4W57EZF;
+				INFOPLIST_FILE = XJTimePick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.xjTimePick.XJTimePick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		363A60042016DE8C008A9A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXQ4W57EZF;
+				INFOPLIST_FILE = XJTimePick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.xjTimePick.XJTimePick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		363A60062016DE8C008A9A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJTimePickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.xjTimePick.XJTimePickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJTimePick.app/XJTimePick";
+			};
+			name = Debug;
+		};
+		363A60072016DE8C008A9A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJTimePickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.xjTimePick.XJTimePickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJTimePick.app/XJTimePick";
+			};
+			name = Release;
+		};
+		363A60092016DE8C008A9A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJTimePickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.xjTimePick.XJTimePickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XJTimePick;
+			};
+			name = Debug;
+		};
+		363A600A2016DE8C008A9A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJTimePickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.xjTimePick.XJTimePickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XJTimePick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363A5FD12016DE8C008A9A35 /* Build configuration list for PBXProject "XJTimePick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363A60002016DE8C008A9A35 /* Debug */,
+				363A60012016DE8C008A9A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363A60022016DE8C008A9A35 /* Build configuration list for PBXNativeTarget "XJTimePick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363A60032016DE8C008A9A35 /* Debug */,
+				363A60042016DE8C008A9A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363A60052016DE8C008A9A35 /* Build configuration list for PBXNativeTarget "XJTimePickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363A60062016DE8C008A9A35 /* Debug */,
+				363A60072016DE8C008A9A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363A60082016DE8C008A9A35 /* Build configuration list for PBXNativeTarget "XJTimePickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363A60092016DE8C008A9A35 /* Debug */,
+				363A600A2016DE8C008A9A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 363A5FCE2016DE8C008A9A35 /* Project object */;
+}
