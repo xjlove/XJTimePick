@@ -222,7 +222,7 @@
                                    forDate:date];
     [self.dayArrM removeAllObjects];
     
-    if (_isCurrentYear) {
+    if (_isCurrentYear&&_maxMonth == [_choosedMonth integerValue]) {
         if (self.maxMonth == [self.choosedMonth integerValue]) {
             for (int i = 1; i<=self.maxDay; i++) {
                 [self.dayArrM addObject:[NSString stringWithFormat:@"%02d",i]];
